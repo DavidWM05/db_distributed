@@ -1,7 +1,7 @@
 #  Base de Datos Distribuida
 ## 📄 Descripcion:
 
-<p>En este proyecto se busca simular el concepto basico de una de base de datos distribuida. El sistema consta de una base de datos global dividida en 3 repositorios, un servidor y un cliente. Tambien se toma en cuenta lo siguiente:</p>
+<p>En este proyecto se simula el concepto basico de una de base de datos distribuida. El sistema consta de una base de datos global dividida en 3 repositorios, un servidor y un cliente. Tambien se toma en cuenta lo siguiente:</p>
 
 - El servidor generara indefinidamente n < 16 CURPS por segundo para ir ingresandolos a la base de datos en un repositorio que se encuentre disponible.
 - El menu contara con las siguientes opciones:</br>
@@ -13,14 +13,21 @@
   6 - Registros que existen para una entidad.<br/>
 - Las entidad federativa de México son: [AS, BC, BS, CC, CS,CH, CL, CM, DF, DG,GT, GR, HG, JC, MC, MN, MS, NT, NL, OC, PL,QT, QR, SP, SL, SR, TC, TL, TS, VZ, YN, ZS]
 - Los repositorios almacenaran los CURPS en memoria de programa.
-- Esto es meramente practico ya que la capacidad de almacenamiento sera igual al total de memoria disponible en la pc</br>
+- NOTA: Esto es meramente practico ya que la capacidad de almacenamiento sera igual al total de memoria disponible en la pc</br>
 
 ### 📊 Esquema
 <img width="600" heigth="600" src="img/db_distributed.png" alt="Base de Datos">
+
 ---
 ## 🖥️ Tecnologías Utilizadas:
-- Java 
-- Linux (Ubuntu)
+- Lenguaje: Java ☕
+- Sistema Operativo: Linux (Ubuntu) 🐧
+  
+---
+## 📱 Calculos
+- Los n < 16 CURPS se calcularon en base al promedio en que el programa generador creo CURPS aleatoriamente en un segundo.<br>
+  Nota: Se utilizo un procesador Intel Core i7, el tiempo puede variar dependiendo el procesador.
+- Para calcular el peso de un CURP se guardo en un .txt y dio como resultado un peso de aproximadamente 19 Bytes.
 
 ---
 ## 🖥 Vistas
