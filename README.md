@@ -1,5 +1,4 @@
 #  Base de Datos Distribuida
----
 ## 📄 Descripcion:
 
 <p>En este proyecto se busca simular el concepto basico de una de base de datos distribuida. El sistema consta de una base de datos global dividida en 3 repositorios, un servidor y un cliente. Tambien se toma en cuenta lo siguiente:</p>
@@ -15,7 +14,12 @@
 - Las entidad federativa de México son: [AS, BC, BS, CC, CS,CH, CL, CM, DF, DG,GT, GR, HG, JC, MC, MN, MS, NT, NL, OC, PL,QT, QR, SP, SL, SR, TC, TL, TS, VZ, YN, ZS]
 - Los repositorios almacenaran los CURPS en memoria de programa.
 - Esto es meramente practico ya que la capacidad de almacenamiento sera igual al total de memoria disponible en la pc</br>
-
-
 ---
 ## 🖥️ Tecnologías Utilizadas:
+- Java 
+- Linux (Ubuntu)
+
+---
+## 🚧 Proyecto
+### 📊 Esquema
+<img width="600" heigth="600" src="img/db_distributed.png" alt="Base de Datos">
