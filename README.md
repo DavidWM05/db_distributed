@@ -24,8 +24,13 @@
 
 ---
 ## 🖥 Vistas
-### 🔹 Menu
+### 🔹 Menu - Opciones
 <img width="600" heigth="600" src="img/Menu.png" alt="Menu1">
 <img width="600" heigth="600" src="img/Opcion1234.png" alt="Menu2">
 <img width="600" heigth="600" src="img/Opcion567.png" alt="Menu3">
-
+### 🔹 Generador
+<img width="600" heigth="600" src="img/Generador.png" alt="Generador">
+### 🔹 Repositorios
+<img width="600" heigth="600" src="img/Servidor1.png" alt="Repo1">
+<img width="600" heigth="600" src="img/Servidor2.png" alt="Repo2">
+<img width="600" heigth="600" src="img/Servidor3.png" alt="Repo3">
