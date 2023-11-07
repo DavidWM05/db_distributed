@@ -1,1 +1,2 @@
-# db_distributed
+#  Concepto de Base de Datos Distribuida
+
