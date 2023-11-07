@@ -14,6 +14,9 @@
 - Las entidad federativa de México son: [AS, BC, BS, CC, CS,CH, CL, CM, DF, DG,GT, GR, HG, JC, MC, MN, MS, NT, NL, OC, PL,QT, QR, SP, SL, SR, TC, TL, TS, VZ, YN, ZS]
 - Los repositorios almacenaran los CURPS en memoria de programa.
 - Esto es meramente practico ya que la capacidad de almacenamiento sera igual al total de memoria disponible en la pc</br>
+
+### 📊 Esquema
+<img width="600" heigth="600" src="img/db_distributed.png" alt="Base de Datos">
 ---
 ## 🖥️ Tecnologías Utilizadas:
 - Java 
@@ -21,5 +24,4 @@
 
 ---
 ## 🚧 Proyecto
-### 📊 Esquema
-<img width="600" heigth="600" src="img/db_distributed.png" alt="Base de Datos">
+
