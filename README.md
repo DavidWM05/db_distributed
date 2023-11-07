@@ -23,5 +23,9 @@
 - Linux (Ubuntu)
 
 ---
-## 🚧 Proyecto
+## 🖥 Vistas
+### 🔹 Menu
+<img width="600" heigth="600" src="img/Menu.png" alt="Menu1">
+<img width="600" heigth="600" src="img/Opcion1234.png" alt="Menu2">
+<img width="600" heigth="600" src="img/Opcion567.png" alt="Menu3">
 
