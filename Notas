@@ -1,0 +1,25 @@
+.- Compilar
+        /source:  javac -d ../classes *.java
+.- Crear jar
+        /classes: jar cf Application.jar Application.class Aggregator.class networking/WebClient.class
+        /classes: jar cf Application.jar Application.class Aggregator.class networking/WebClient.class WebServer.class
+.- Ejecutar jar
+        /classes: java -cp Application.jar Application
+
+ -> curps por segundo = 16
+ -> tiempo de curp = 0.0625 = 62.5 -> aprox = 63
+
+
+ La computadora local debe ofrecer un menú en modo consola para elegir la consulta que se va a realizar
+ sobre la base de datos en un instante dado y que puede ser alguna de las siguientes:
+
+ -> Cuantas CURPs por segundo se están generando.                 
+
+ -> Cuantos registros hay en total en la base de datos.                                         0,0
+ -> Cuantos registros hay en cada uno de los tres servidores.                                   
+ -> Cuantos bytes ocupa la base de datos completa y cuantos bytes se ocupan en cada servidor.   
+
+ -> Cuantos registros son varones y cuantas mujeres en toda la base de datos en ese momento.    1,H o 1,M
+
+ -> Cuantos registros existen para una entidad específica que se desee buscar en ese momento.   2,Entidad
+ 
